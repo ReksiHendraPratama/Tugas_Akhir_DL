@@ -1,4 +1,8 @@
 # Tugas_Akhir_DL
+### Nama Kelompok
+1.	Evelyn Eunike Aritonang		G1A022024
+2.	Reksi Hendra Pratama 	   	G1A022032
+3.	Sinta Ezra Wati Gulo 			G1A022040
 
 Proyek ini mengembangkan sistem deteksi anomali pada data sensor IoT berbasis time series menggunakan arsitektur hybrid Convolutional Neural Network (CNN) dan Long Short-Term Memory (LSTM). Sistem dirancang untuk mendeteksi pola abnormal pada data sensor multivariat dengan memanfaatkan kemampuan CNN dalam mengekstraksi fitur lokal dari setiap window waktu serta LSTM dalam memodelkan ketergantungan temporal jangka panjang. Dataset yang digunakan adalah NASA C-MAPSS, yang berisi data sensor mesin turbofan pesawat jet dengan karakteristik degradasi bertahap (run-to-failure), di mana kondisi awal diperlakukan sebagai data normal dan fase degradasi sebagai anomali. Tahapan proyek meliputi pra-pemrosesan data (normalisasi dan segmentasi window time series), perancangan dan implementasi model CNN-LSTM menggunakan TensorFlow/Keras, serta evaluasi performa menggunakan metrik accuracy, precision, recall, F1-score, dan ROC-AUC. Hasil evaluasi menunjukkan bahwa model CNN-LSTM memberikan performa yang lebih baik dibandingkan model baseline Random Forest, khususnya dalam mendeteksi data anomali, sehingga menunjukkan efektivitas pendekatan deep learning hybrid untuk aplikasi monitoring dan predictive maintenance pada sistem IoT. 
 
